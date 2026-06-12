@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Pirata+One&family=UnifrakturMaguntia&display=swap');
+
+body {
+    max-width: 700px;
+    margin: auto;
+    color: black;
+    background-color: #ccdecd
+}
+
+h1,h2, h3 {
+  color: white;
+  background-color: #08450e;
+  text- align: center;
+}
+
+.centered {
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: black
+}
+
+.side-by-side {
+  display:inline-block;
+  width: 48%
+}
+
+a {
+  color: white;
+  background-color: #658a55 
+}
+
+a:hover {
+   color: blue;
+}
+
+nav li {
+  color: white;
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background-color: #658a55 
+}
+
+nav a:hover {
+  color: blue
+}
+
+nav a {
+  color: white
+}
+
+h1, h2, h3 {
+ font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p, table, tr, a, li {
+font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+th {
+  padding: 8px
+}
+
+
